@@ -12,7 +12,7 @@ Let's dive in!
 1. Android studio
 2. You must be familiar with [Kotlin](https://developer.android.com/kotlin/campaign/learn?gclid=Cj0KCQiA7qP9BRCLARIsABDaZzh1wodOJn7w8kKTtWq8yNFlx9xoqzEE_cU2KkCO2Ecdyyr2frGOVjQaAlSuEALw_wcB&gclsrc=aw.ds)
 3. Install [lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle) dependencies
-4. Download the start code from [here](https://github.com/WanjaMIKE/MVVMExample)
+4. Download the starter code from [here](https://github.com/WanjaMIKE/MVVMExample)
 
 #### The goal of the tutorial
 By the end of this tutorial, you will create an app that takes input and displays it on a recycler view. Below is the screenshot of the app.
@@ -55,7 +55,7 @@ The purpose of a `ViewModel` factory is to instantiate the `ViewModel`. This pre
 ![viewmodelfactory](/engineering-education/implementing-mvvm-architecture-in-android-using-kotlin/viewmodelfactory.png)
 
 ### Step 8 – MainActivity (Connecting the code)
-We have created the model, `ViewModel`, `ViewModelfactory`, and `RecyclerView`. These components need to be instantiated in this class for the application to work.
+We have created the model, `ViewModel`, `ViewModelfactory`, and `RecyclerView`. The components need to be instantiated in this class for the application to work.
 
 Start by declaring the `RecyclerView` and instantiating it. Make sure the layout manager for the `RecyclerView` is set as `LinearLayoutManager`.
 
@@ -67,7 +67,7 @@ If there are no errors in your code, it should compile and show the UI in the im
 ![results](/engineering-education/implementing-mvvm-architecture-in-android-using-kotlin/result.png)
 
 ## Conclusion
-MVVM architecture has made it easy to build complex applications. As shown, it's easier to identify bugs due to the separation of business logic from the UI code. The architecture also prevents data loss, especially when the orientation of the screen changes. Ensure that all dependencies are installed before using MVVM. The measure helps prevent runtime errors.
+MVVM architecture has made it easy to build complex applications. As shown, it's easier to identify bugs due to the separation of business logic from the UI code. The architecture also prevents data loss, especially when the orientation of the screen changes. Ensure that all dependencies are installed before using MVVM architecture. The measure helps prevent runtime errors.
 
 ## References
 [JetPack](https://developer.android.com/jetpack/guide)
