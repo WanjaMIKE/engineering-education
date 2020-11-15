@@ -28,7 +28,7 @@ Create the app model. This is also referred to as the data class. To avoid confu
 ![model](/engineering-education/implementing-mvvm-architecture-in-android-using-kotlin/model.png)
 
 ### Step 3 – Creating the view.
-The view is what the user sees on the screen. The UI, therefore, needs to be well structured to minimize confusion and dissatisfaction.
+The view is what the user sees on the screen. The UI, therefore, needs to be well-structured to minimize confusion and dissatisfaction.
 
 Open `activity_main.xml` file and change the layout from constraint to linear layout. Ensure that the orientation is set to vertical. This arranges UI components vertically in the Layout. For our app, the primary widgets are `Edittext`, `Button`, and a `RecyclerView`. Ensure that all these widgets have IDs since they are vital at a later stage. The layout design and code are shown in the image below. The section with a list showing items 0 to 9 is the `RecyclerView`. Whatever we type in the app will appear in that section once the user clicks the submit button.
 
